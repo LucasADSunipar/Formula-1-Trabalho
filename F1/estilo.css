@@ -1,0 +1,1932 @@
+.faixatopo{
+    height: 100px;
+    background: linear-gradient(to right, #8B0A1A, #000);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.faixavermelha{
+    height: 50px;
+    background-color: #0000009d;
+    position: fixed;
+    top:100px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logof1{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    left: 1600px;
+}
+
+.logofia{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    left: 25px;
+}
+
+body{
+    background-image: url('https://media.formula1.com/image/upload/f_auto/q_auto/v1716295882/fom-website/2024/Monaco/Senna%20McLaren%20livery/MCL38_Render%20.jpg');
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.telapreta {
+    position: fixed; 
+    top: 100px; 
+    left: 0px; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #000000; 
+    opacity: 0.8; 
+    z-index: -8;
+}
+
+
+@font-face {
+    font-family: 'F1';
+    src: url('Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    font-family: 'F1';
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    height: 70px;
+    top: 50px;
+}
+
+.faixalateral{
+    height: 100%;
+    background-color: #ffffff9d;
+    position: fixed;
+    top:100px;
+    left: 0;
+    width: 100px;
+}
+
+.mclaren{
+    z-index: 3;
+    position: absolute;
+    top: 270px;
+    left: -3px;
+}
+
+.norris{
+    border-radius: 20px;
+    margin-left: 400px;
+}
+
+
+.mclaren .balao {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    left: 250px; 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px; 
+    color: #ffffff;
+}
+
+.mclaren .balao p{
+    padding-left: 27px;
+    margin-top: 3px;
+    font-size: 16px;
+    font-family: 'F1';
+}
+
+.mclaren:hover .balao {
+    display: block; 
+left: 120px;
+top: -120px;
+}
+
+.linha{
+    border-bottom: 1px solid transparent;
+    margin-left: 400px;
+    margin-top: -13px;
+    margin-bottom: 10px;
+
+}
+
+.retangulo {
+    width: 90px;
+    height: 40px;
+    background-color: #fd7d28;
+    display: block;
+    margin-top: 180px;
+    position: fixed;
+}
+
+
+.car{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: -20px;
+}
+
+
+
+.britania{
+    margin-top: -47;
+    margin-left: 420;
+    position: fixed;
+}
+
+.quatro{
+    position: absolute;
+    margin-left: 70px;
+    top: 238px;
+    
+}
+
+.oscar{
+    margin-left: 650px;
+    margin-top: -227px;
+}
+
+.australia{
+    margin-top: 3;
+    margin-left: -57;
+    position: fixed;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+.ferrari {
+    z-index: 3;
+    position: absolute;
+    top: 390px;
+    left: -24px;
+}
+
+.balao-ferrari {
+    width: 880px;
+    margin-left: 19px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.ferrari:hover .balao-ferrari {
+    display: block;
+    left: 120px;
+    top: -120px;
+}
+
+.carferrari{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 5px;
+}
+
+.charles{
+    border-radius: 20px;
+    margin-left: 390px;
+
+}
+
+.linhaa{
+    border-bottom: 1px solid transparent;
+    margin-left: 400px;
+    margin-top: 45px;
+    margin-bottom: 10px;  
+
+}
+
+.retanguloferrari{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #c02727;
+    display: block;
+
+}
+
+.monaco{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 235px;
+}
+
+.lewis{
+    margin-left: 630px;
+    margin-top: -230px;
+}
+
+.britalewis{
+    position: fixed;
+    margin-left: -190px;
+    margin-top: 5px;
+}
+
+
+
+.rbr{
+    position: absolute;
+    top: 540px;
+    left: 6px;
+}
+
+.balaorbr{
+    width: 880px;
+    margin-left: -10px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+    z-index: 1;
+
+}
+
+.rbr:hover .balaorbr {
+    display: block;
+    left: 120px;
+    top: -120px;
+}
+
+.carrorbr{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+
+.retangulorbr{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #2f37ac;
+    display: block;
+    z-index: -1;
+
+}
+
+.nether{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 235px;
+}
+
+.maxver{
+    border-radius: 20px;
+    margin-left: 413px;
+}
+
+.tsunoda{
+    position: fixed;
+    margin-left: -55px;
+    margin-top: -45px;
+}
+
+.japan{
+    position: fixed;
+    margin-left: 28px;
+    margin-top: 234px;
+}
+
+
+
+
+
+
+.mercedes{
+    position: absolute;
+    top: 670px;
+    left: 16px;
+}
+
+.balaomec{
+    width: 880px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.mercedes:hover .balaomec {
+    display: block;
+    left: 120px;
+    top: -120px;
+}
+
+.carromec{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retangulomec{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #38f3da;
+    display: block;
+    z-index: -1;
+
+}
+
+.kingdom{
+    position: fixed;
+    margin-left: 420px;
+    margin-top: 220px;
+}
+
+.russel{
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: -15px;
+}
+
+.kimi{
+    position: fixed;
+    margin-left: -25px;
+    margin-top: -15px;
+}
+
+.italy{
+    position: fixed;
+    margin-left: 28px;
+    margin-top: 220px;
+}
+
+.linhaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+.astonmartin{
+    position: absolute;
+    top: 790px;
+    left: -2px;
+}
+
+.balaoasto{
+    width: 910px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.astonmartin:hover .balaoasto {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carroasto{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retanguloasto{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #17aa8a;
+    display: block;
+    z-index: -1;
+
+}
+
+.france{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 220px;
+}
+
+.pierre{
+    border-radius: 20px;
+    margin-left: 395px;
+    margin-top: -15px;
+}
+
+.jack{
+    position: fixed;
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+.austr{
+    position: fixed;
+    margin-left: 45px;
+    margin-top: 220px;
+}
+
+.linhaaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+.alpine{
+    position: absolute;
+    top: 920px;
+    left: 0px;
+}
+
+
+.balaoalp{
+    width: 910px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.alpine:hover .balaoalp {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carroalp{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retanguloalp{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #008fee;
+    display: block;
+    z-index: -1;
+
+}
+
+.canada{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 220px;
+}
+
+.lance{
+    border-radius: 20px;
+    margin-left: 410px;
+    margin-top: -15px;
+}
+
+.alonso{
+    position: fixed;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+.espanha{
+    position: fixed;
+    margin-left: 34px;
+    margin-top: 220px;
+}
+
+.linhaaaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+.haas{
+    position: absolute;
+    top: 1080px;
+    left: 7px;
+}
+
+.balaohaas{
+    width: 890px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.haas:hover .balaohaas {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carrohaas{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retangulohaas{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #a8a8a8;
+    display: block;
+    z-index: -1;
+
+}
+
+.france{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 220px;
+}
+
+.ocon{
+    border-radius: 20px;
+    margin-left: 395px;
+    margin-top: -15px;
+}
+
+.bearman{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.uniteki{
+    position: fixed;
+    margin-left: 45px;
+    margin-top: 220px;
+}
+
+.linhaaaaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+.bulls{
+    position: absolute;
+    top: 1250px;
+    left: 2px;
+}
+
+.balaorb{
+    width: 910px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.bulls:hover .balaorb {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carrorb{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retangulorb{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #0286df;
+    display: block;
+    z-index: -1;
+
+}
+
+.newz{
+    position: fixed;
+    margin-left: 423px;
+    margin-top: 220px;
+}
+
+.liam{
+    border-radius: 20px;
+    margin-left: 420px;
+    margin-top: -15px;
+}
+
+.isack{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.fra{
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 220px;
+}
+
+.linhaaaaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+.williams{
+    position: absolute;
+    top: 1430px;
+    left: 10px;
+}
+
+.balaowil{
+    width: 890px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.williams:hover .balaowil {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carrowil{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retangulowil{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #2735ff;
+    display: block;
+    z-index: -1;
+
+}
+
+.thai{
+    position: fixed;
+    margin-left: 415px;
+    margin-top: 220px;
+}
+
+.albon{
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-top: -15px;
+}
+
+.carlos{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.spain{
+    position: fixed;
+    margin-left: 35px;
+    margin-top: 220px;
+}
+
+.linhaaaaaaa{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+.sauber{
+    position: absolute;
+    top: 1560px;
+    left: -8px;
+}
+
+.balaoki{
+    width: 890px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    left: 250px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.sauber:hover .balaoki {
+    display: block;
+    left: 138px;
+    top: -120px;
+}
+
+.carroki{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+
+.retanguloki{
+    width: 90px;
+    height: 40px;
+    position: fixed;
+    margin-top: 155px;
+    background-color: #5bfd4c;
+    display: block;
+    z-index: -1;
+
+}
+
+.ale{
+    position: fixed;
+    margin-left: 435px;
+    margin-top: 220px;
+}
+
+.nico{
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-top: -15px;
+}
+
+.gabriel{
+    position: fixed;
+    margin-left: 2px;
+    margin-top: -15px;
+}
+
+.bra{
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 220px;
+}
+
+.linhaaaaaaa{
+    margin-top: 60px;
+}
+
+
+.faixa {
+    position: absolute;
+    top: 55%;
+    left: -9px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #8a0505, #db0202, #8a0505);
+    z-index: -1;
+}
+
+.faixaa{
+    position: absolute;
+    top: 60%;
+    left: -9px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(95, 14, 14);
+    z-index: -1;
+    
+}
+
+
+.notice {
+    position: absolute;
+    top: 20%;
+    left: 460px;
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(90deg, #5a0366, #7a038a, #860297, #8a057800 78%);
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.branco{
+    position: absolute;
+    top: 183px;
+    left: 460px;
+    height: 320px;
+    width: 912px;
+    background-color: rgb(33, 32, 43);
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    z-index: -1;
+}
+
+.roxo{
+    position: absolute;
+    top: 170px;
+    left: 460px;
+    height: 348px;
+    width: 925px;
+    background-color: #7a038a;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    z-index: -2;
+}
+
+.brancofundo{
+    position: absolute;
+    top: 50px;
+    left: -6;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(33, 32, 43);
+    z-index: -3;
+}
+
+
+
+
+.notici{
+    position: absolute;
+    left: 860px;
+    top: 192px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.text{
+    position: absolute;
+    font-family: 'f1';
+    color: white;
+    left: 30px;
+    top: 20px;
+    font-weight: normal;
+}
+
+.driv{
+    text-align: center;
+    font-family: 'F1';
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+.landoo{
+    position: absolute;
+    top: 680px;
+    left: 700px;
+    z-index: -1;
+}
+
+.landu{
+    position: absolute;
+    top: 790px;
+    left: 764px;
+    height: 180px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.landuu{
+    position: absolute;
+    top: 970px;
+    left: 764px;
+    height: 90px;
+    width: 325px;
+    background-color: #05061a;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    z-index: -1;
+}
+
+.landuuu{
+    position: absolute;
+    top: 960px;
+    left: 764px;
+    height: 10px;
+    width: 325px;
+    background-color: #ff7b00;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.bri{
+    position: absolute;
+    left: 220px;
+    top: 29px;
+    border-radius: 10px;
+}
+    
+
+
+
+.maxv{
+    position: absolute;
+    top: 830px;
+    left: 390px;
+    height: 140px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.maxvv{
+    position: absolute;
+    top: 970px;
+    left: 390px;
+    height: 90px;
+    width: 325px;
+    background-color: #05061a;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    z-index: -1;
+}
+
+.maxvvv{
+    position: absolute;
+    top: 970px;
+    left: 390px;
+    height: 10px;
+    width: 325px;
+    background-color: #296bce;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.verst{
+    position: absolute;
+    top: 720px;
+    left: 350px;
+    z-index: -1;
+}
+
+.paismax{
+    position: absolute;
+    left: 230px;
+    top: 24px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.osca{
+    position: absolute;
+    top: 830px;
+    left: 1140px;
+    height: 180px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.oscaa{
+    position: absolute;
+    top: 970px;
+    left: 1140px;
+    height: 90px;
+    width: 325px;
+    background-color: #05061a;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    z-index: -1;
+}
+
+.oscaaa{
+    position: absolute;
+    top: 970px;
+    left: 1140px;
+    height: 10px;
+    width: 325px;
+    background-color: #ff7b00;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.oscu{
+    position: absolute;
+    top: 710px;
+    left: 1100px;
+    z-index: -1;
+}
+
+.paispi{
+    position: absolute;
+    left: 220px;
+    top: 23px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.tabela-pilotos {
+    color: rgb(0, 0, 0);
+    width: 1075px;
+    font-size: 16px;
+    font-family: 'F1';
+    font-weight: normal;
+    position: absolute;
+    top: 1150px;
+    left: 390px;
+    z-index: -1;
+  }
+''
+  
+  .tabela-pilotos th, .tabela-pilotos td {
+    padding: 10px;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .tabela-pilotos tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+  }
+
+
+  .tabela-pilotos thead tr {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+    height: 50px;
+  }
+  
+  .tabela-pilotos tbody tr:nth-child(2n+1) {
+    background-color: #ffffff; /* vermelho */
+    height: 40px;
+  }
+  
+  .tabela-pilotos tbody tr:nth-child(2n) {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #ffffff;
+    height: 40px;
+  }
+  
+  .separassao{
+    position: absolute;
+    top: 2183px;
+    left: -9px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+
+  .faixaf1{
+    position: absolute;
+    top: 2130px;
+    left: -9px;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+  }
+
+  .f1{
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+  }
+
+  .titu{
+    font-family: 'F1';
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 2300px;
+    left: 200px;
+  }
+
+  .lenovo{
+    position: absolute;
+    top: 2500px;
+    left: 1090px;
+  }
+
+
+
+
+  .tabela-resultados{
+    border-spacing: 30px 0;
+    position: absolute;
+    top: 2800px;
+    font-family: 'F1';
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    left: 100px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    z-index: -1;
+    font-weight: normal;
+    background: linear-gradient(135deg, rgba(56, 0, 0, 0.404), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(82, 0, 0, 0.459);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    height: 50px;
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+
+  }
+
+  .tabela-resultados tr{
+    border-spacing: 30px 0;
+    border-bottom: 10px solid transparent;
+
+  }
+
+
+  
+
+
+  .tabela-resultados tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .tabela-resultados tr :nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 25px;
+    
+  }
+
+
+  .tabela-resultados th td:nth-child(4) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 40px;
+    
+  }
+
+
+
+  .tabela-resultadosdois{
+    border-spacing: 30px 0;
+    position: absolute;
+    top: 2800px;
+    font-family: 'F1';
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    left: 685px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    z-index: -1;
+    font-weight: normal;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.521), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    height: 50px;
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+
+  }
+
+  .tabela-resultadosdois tr{
+    border-spacing: 30px 0;
+    border-bottom: 10px solid transparent;
+
+  }
+
+
+  
+
+
+  .tabela-resultadosdois tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .tabela-resultadosdois tr :nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 25px;
+    
+  }
+
+
+  .tabela-resultadosdois th td:nth-child(4) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 40px;
+    
+  }
+
+
+
+
+
+
+
+
+  .tabela-resultadostres{
+    border-spacing: 30px 0;
+    position: absolute;
+    top: 2800px;
+    font-family: 'F1';
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    left: 1270px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    z-index: -1;
+    font-weight: normal;
+    background: linear-gradient(135deg, rgba(36, 0, 0, 0.425), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(134, 2, 2, 0.26);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    height: 50px;
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+
+  }
+
+  .tabela-resultadostres tr{
+    border-spacing: 30px 0;
+    border-bottom: 10px solid transparent;
+
+  }
+
+
+  
+
+
+  .tabela-resultadostres tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .tabela-resultadostres tr :nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 25px;
+    
+  }
+
+
+  .tabela-resultadostres th td:nth-child(4) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 40px;
+    
+  }
+
+
+
+  .titum{
+    position: absolute;
+    top: 2783px;
+    left: 105px;
+    width: 560px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    z-index: 1;
+  }
+
+  .titumm{
+    position: absolute;
+    top: 2773px;
+    left: 105px;
+    width: 400px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+
+  .prat{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 2625px;
+    left: 110px;
+    font-family: 'F1';
+    font-weight: normal;
+  }
+
+
+
+
+
+  .titdois{
+    position: absolute;
+    top: 2783px;
+    left: 690px;
+    width: 560px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    z-index: 1;
+  }
+
+  .titdoiss{
+    position: absolute;
+    top: 2773px;
+    left: 690px;
+    width: 400px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+
+  .pratt{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 2625px;
+    left: 690px;
+    font-family: 'F1';
+    font-weight: normal;
+  }
+
+
+  .tittres{
+    position: absolute;
+    top: 2783px;
+    left: 1270px;
+    width: 560px;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+    z-index: 1;
+  }
+
+  .tittress{
+    position: absolute;
+    top: 2773px;
+    left: 1270px;
+    width: 400px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+
+  .prattt{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 2625px;
+    left: 1275px;
+    font-family: 'F1';
+    font-weight: normal;
+  }
+
+
+
+  .retangulo{
+    position: absolute;
+    top: 4000px;
+    left: -6;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(33, 32, 43);
+    z-index: -3;
+}
+
+.ret {
+    position: absolute;
+    top: 4450px;
+    left: -9px;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #8a0505, #db0202, #8a0505);
+    z-index: -1;
+}
+
+.rett{
+    position: absolute;
+    top: 4500px;
+    left: -9px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(95, 14, 14);
+    z-index: -1;
+    
+}
+
+.ca{
+    position: absolute;
+    top: 4900px;
+    left: 770px;
+}
+
+.drive{
+    text-align: center;
+    font-family: 'F1';
+    font-weight: bold;
+    color: white;
+}
+
+
+.timcar{
+    position: absolute;
+    top: 4700px;
+    left: 764px;
+    height: 180px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.timcarr{
+    position: absolute;
+    top: 4880px;
+    left: 764px;
+    height: 90px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 0 0 0;
+    z-index: -1;
+}
+
+.timcarrr{
+    position: absolute;
+    top: 4870px;
+    left: 764px;
+    height: 10px;
+    width: 100px;
+    background-color: #ff7b00;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.mc{
+    position: absolute;
+    top: 4720px;
+    left: 785px;
+}
+
+.backbranco{
+    position: absolute;
+    top: 4910px;
+    left: -6;
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    z-index: -3;
+}
+
+.tincar{
+    position: absolute;
+    top: 4750px;
+    left: 390px;
+    height: 140px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.tincarr{
+    position: absolute;
+    top: 4880px;
+    left: 390px;
+    height: 90px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 0 ;
+    z-index: -1;
+}
+
+.meca{
+    position: absolute;
+    top: 4899px;
+    left: 397px;
+}
+
+.tincarrr{
+    position: absolute;
+    top: 4870px;
+    left: 390px;
+    height: 10px;
+    width: 100px;
+    background-color: #5eecff;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.tincarrrr{
+    position: absolute;
+    top: 4883px;
+    left: 390px;
+    height: 8px;
+    width: 70px;
+    background-color: #5eecff;
+    border: none;
+    border-radius: 0;
+    z-index: -1;
+}
+
+.mcc{
+    position: absolute;
+    top: 4760px;
+    left: 420px;
+}
+
+
+
+
+.lap{
+    position: absolute;
+    top: 4750px;
+    left: 1140px;
+    height: 180px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px 30px 0 0;
+    z-index: -1;
+}
+
+.lapp{
+    position: absolute;
+    top: 4880px;
+    left: 1140px;
+    height: 90px;
+    width: 325px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 0;
+    z-index: -1;
+}
+
+.lappp{
+    position: absolute;
+    top: 4870px;
+    left: 1140px;
+    height: 10px;
+    width: 100px;
+    background-color: #4469e2;
+    border: none;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.lapppp{
+    position: absolute;
+    top: 4883px;
+    left: 1140px;
+    height: 8px;
+    width: 70px;
+    background-color: #4469e2;
+    border: none;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.lappppp{
+    position: absolute;
+    top: 4895px;
+    left: 1140px;
+    height: 8px;
+    width: 40px;
+    background-color: #4469e2;
+    border: none;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.mccc{
+    position: absolute;
+    top: 4903px;
+    left: 1147px;
+}
+
+.rbrrr{
+    position: absolute;
+    top: 4775px;
+    left: 1173px;
+}
+
+
+.tabela-construtores {
+    color: rgb(0, 0, 0);
+    width: 1075px;
+    font-size: 16px;
+    font-family: 'F1';
+    font-weight: normal;
+    position: absolute;
+    top: 5100px;
+    left: 390px;
+    z-index: -1;
+  }
+''
+  
+  .tabela-construtores th, .tabela-construtores td {
+    padding: 10px;
+    border-radius: 0;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .tabela-construtores tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+  }
+
+
+  .tabela-construtores thead tr {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #000000;
+    height: 50px;
+  }
+  
+  .tabela-construtores tbody tr:nth-child(2n+1) {
+    background-color: #000000; /* vermelho */
+    height: 40px;
+    color: white;
+  }
+  
+  .tabela-construtores tbody tr:nth-child(2n) {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #000000;
+    height: 40px;
+  }
+
+
+
+
+  .titsis{
+    top: 5760px;
+    position: absolute;
+    left: 300px;
+    font-family: 'F1';
+    font-size: 60px;
+
+  }
+  
+
+  .sisre{
+    top: 5840px;
+    position: absolute;
+    width: 780px;
+    left: 290px;
+    height: 70px;
+    background-color: red;
+    z-index: -1;
+    border-radius: 20px;
+  }
+
+
+  .sistema {
+    color: rgb(0, 0, 0);
+    width: 1075px;
+    font-size: 16px;
+    font-family: 'F1';
+    font-weight: normal;
+    position: absolute;
+    top: 6000px;
+    left: 150px;
+    z-index: -1;
+  }
+  ''
+  
+  .sistema th, .sistema td {
+    padding: 10px;
+    border-radius: 0;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .sistema tr td:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+  }
+
+  .sistema tr td:nth-child(2) {
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+  }
+
+
+  .sistema thead tr {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #000000;
+    height: 50px;
+  }
+  
+  .sistema tbody tr:nth-child(2n+1) {
+    background-color: #000000; /* vermelho */
+    height: 40px;
+    color: white;
+  }
+  
+  .sistema tbody tr:nth-child(2n) {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    color: #000000;
+    height: 40px;
+  }
+
+
+  .cabeca{
+    position: absolute;
+    top: 6800px;
+    width: 100%;
+    left: -8px;
+    height: 300px;
+    background-color: #000000;
+    z-index: 1;
+  }
+
+  .cir{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+  }
+
+  .date{
+    position: absolute;
+    color: white;
+    font-family: 'F1';
+    font-size: 14px;
+    left: 265px;
+    top: 50px;
+  }
+
+  .test{
+    position: absolute;
+    color: white;
+    font-family: 'F1';
+    font-size: 30px;
+    left: 430px;
+    top: 120px;
+    font-weight: bold;
+  }
+
+  .aaa{
+    position: absolute;
+    left: 610px;
+    top: 143px;
+  }
+
+  .name{
+    position: absolute;
+    color: white;
+    font-family: 'F1';
+    font-size: 14px;
+    left: 1450px;
+    top: 130px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+
+
+.png{
+    position: absolute;
+    top: 2000px;
+    left: -8px;
+}
